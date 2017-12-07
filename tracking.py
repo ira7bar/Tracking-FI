@@ -7,7 +7,7 @@ N = 112
 path = "Images/"
 
 
-def normalized_hist(I):
+def normalized_hist(I, width, height, xc, yc):
     pass
 
 

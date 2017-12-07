@@ -11,7 +11,8 @@ def normalized_hist(I):
     pass
 
 
-
+def predict_kalman():
+    print 'predict!'
 
 def read_frames():
     frames = []

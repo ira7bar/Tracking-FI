@@ -27,11 +27,12 @@ def rgb_to_histogram(rgbImage):
     allThree = np.concatenate([countsR, countsG, countsB]).T
 
     hist_sum = sum(sum(allThree))
-    allThree/=hist_sum
+    allThree /= hist_sum
 
     # print rgbImage.shape[0]*rgbImage.shape[1]*rgbImage.shape[2]
     # print sum(sum(allThree))
-    # print countsR.shape, countsG.shape, countsB.shape, allThree
+    # print countsR.shape, countsG.shape, countsB.shape,
+    # print allThree
 
     return allThree
 
